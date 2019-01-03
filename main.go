@@ -20,7 +20,7 @@ type message struct {
 func init() {
 	url = os.Getenv("URL")
 	if len(url) < 1 {
-		panic("You must pass in the URL environment variable")
+		panic("You must set the URL environment variable")
 	}
 }
 
