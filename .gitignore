@@ -4,6 +4,9 @@
 *.dll
 *.so
 *.dylib
+chime-webhook-test
+handler.zip
+*.swp
 
 # Test binary, build with `go test -c`
 *.test
